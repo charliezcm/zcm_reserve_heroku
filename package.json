@@ -1,0 +1,23 @@
+{
+  "name": "cainz-reserve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "createSpaceFrames": "node -e 'require(\"./bin/spaceResFrameGen\").execBatch()'",
+    "removeSpaceFrames": "node -e 'require(\"./bin/spaceResFrameDel\").execBatch()'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/cainz-reserve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "pg": "^8.2.1",
+    "pg-format": "^1.0.4"
+  }
+}
