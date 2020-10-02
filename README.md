@@ -1,2 +1,2 @@
-# cainz_reserve_heroku
-予約システムheroku内App
+# zcm_reserve_heroku
+heroku内App
