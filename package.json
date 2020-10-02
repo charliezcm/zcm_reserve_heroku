@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "createSpaceFrames": "node -e 'require(\"./bin/spaceResFrameGen\").execBatch()'",
-    "removeSpaceFrames": "node -e 'require(\"./bin/spaceResFrameDel\").execBatch()'"
+    "removeSpaceFrames": "node -e 'require(\"./bin/spaceResFrameDel\").execBatch()'",
+    "test": "node -e 'require(\"./bin/test\").execBatch()'"
   },
   "repository": {
     "type": "git",
